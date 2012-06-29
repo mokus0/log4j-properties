@@ -2,17 +2,21 @@ name:                   log4j-properties
 version:                0.0.0.1
 stability:              experimental
 
-cabal-version:          >= 1.2
+cabal-version:          >= 1.6
 build-type:             Simple
 
 author:                 James Cook <your email here>
 maintainer:             James Cook <your email here>
-license:                Unspecified
+license:                PublicDomain
 homepage:               /dev/null
 
 category:               Unclassified
 synopsis:               I'm too lame to describe my project
 description:            I'm too lame to describe my project
+
+source-repository head
+  type: git
+  location: git://github.com/mokus0/log4j-properties.git
 
 Library
   hs-source-dirs:       src
